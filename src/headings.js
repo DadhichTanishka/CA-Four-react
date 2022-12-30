@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 function Heads(){
     const[currMode,changeMode]=useState('light mode');
     const modeSetting=()=>{
